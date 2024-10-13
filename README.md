@@ -44,6 +44,9 @@ This route allows you to generate an essay based on a given topic. You can POST 
 
 ## Example: Using the Client
 You can use the client.py to make a request to the /essay endpoint.
+```bash
+python client.py
+```
 ## Reference
 1. https://python.langchain.com/docs/integrations/chat/google_generative_ai/
 2. https://ai.google.dev/gemini-api/docs/api-key
