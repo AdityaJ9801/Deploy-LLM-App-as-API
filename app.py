@@ -6,7 +6,7 @@ import uvicorn
 import os
 
 # Set the Google API key
-os.environ["GOOGLE_API_KEY"] = "AIzaSyB6e-fh4XssONmthsNLx0JnCTZcy2ZkaEo"
+os.environ["GOOGLE_API_KEY"] = ""
 
 # Initialize the language model
 llm = ChatGoogleGenerativeAI(
